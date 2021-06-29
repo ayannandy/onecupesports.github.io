@@ -356,3 +356,74 @@
         </div>
     </section>
     <!-- PRODUCT AREA END -->
+
+<----   responsive nav   ---->
+<ul class="responsive-nav">
+                <li>
+                    <a class="nav-link nl-m-top abc"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <div class="search top-search">
+                        <button type="button" class="close fix-close">×</button>
+                        <form>
+                            <input type="search" value="" placeholder="Search Here" />
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link cart nl-m-top" data-toggle="modal" data-target="#exampleModalCenter"><i
+                            class="fa fa-shopping-bag" aria-hidden="true"></i><span>2</span></a>
+                </li>
+                <li>
+                    <a class="nav-link nl-m-top" href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+<----   responsive nav   ---->
+
+
+
+<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugit incidunt
+                            rem laboriosam, voluptas, eaque.</p>
+
+
+
+
+<!-- COUNTER AREA START -->
+    <section id="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="counter-item">
+                        <h3 class="counter" data-counterup-time="2500" data-counterup-delay="30"
+                            data-counterup-beginat="20">105</h3>
+                        <span>K<b>.</b></span>
+                        <p>Community Earning</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="counter-item">
+                        <h3 class="counter" data-counterup-time="2500" data-counterup-delay="30"
+                            data-counterup-beginat="20">100</h3>
+                        <span>M<b>.</b></span>
+                        <p>Registered Players</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="counter-item">
+                        <h3 class="counter" data-counterup-time="2500" data-counterup-delay="30"
+                            data-counterup-beginat="20">221</h3>
+                        <span>K<b>.</b></span>
+                        <p>Streams Complete</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="counter-item">
+                        <h3 class="counter" data-counterup-time="2500" data-counterup-delay="30"
+                            data-counterup-beginat="20">875</h3>
+                        <span><b>.</b></span>
+                        <p>Total Sponsers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COUNTER AREA END -->

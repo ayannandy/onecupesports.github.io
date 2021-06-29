@@ -17,10 +17,24 @@
         padding: 20px 0;
     }
 
-    .nav-bg.navbar-light .navbar-brand {
-        padding-left: 15px;
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .nav-bg.navbar-light .navbar-brand {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link i {
+        
+        margin-left: 0;
+    }
     .nav-bg .menu-icon i {
         margin-right: 15px;
     }
@@ -56,6 +70,7 @@
     }
 
     .index3 #banner {
+        background-image:none;
         -webkit-animation: none;
         animation: none;
     }
@@ -172,7 +187,7 @@
     }
 
     .banner-img img {
-        top: 355px;
+        top: 385px;
         right: 0;
     }
 
@@ -394,7 +409,7 @@
     }
 
     .banner-img img {
-        top: 335px;
+        top: 385px;
         right: 0;
     }
 
